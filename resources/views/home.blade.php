@@ -380,37 +380,6 @@
                 </div>
               </div> 
             </section>
-
-            {{-- <section>
-                <div class="grid-box2">
-                    <div class="grid-item">
-                        <figure><img src="{{ asset('assets\img\insight\online-rent-receipt-generator.png') }}" alt=""></figure>
-                        <div class="newServiceBox"><a href="#">Online Rent Receipt Generator</a></div>
-                    </div>
-                    <div class="grid-item">
-                        <figure><img src="{{ asset('assets\img\insight\sell-or-rent-property.png') }}" alt=""></figure>
-                        <div class="newServiceBox"><a href="#">Sell or Rent Property</a></div>
-                    </div>
-                    <div class="grid-item">
-                        <figure><img src="{{ asset('assets\img\insight\title-search.png') }}" alt=""></figure>
-                        <div class="newServiceBox"><a href="#">Title Search</a></div>
-                    </div>
-                    <div class="grid-item">
-                        <figure><img src="{{ asset('assets\img\insight\litigation.png') }}" alt=""></figure>
-                        <div class="newServiceBox"><a href="#">Litigation</a></div>
-                    </div>
-                    <div class="grid-item">
-                        <figure><img src="{{ asset('assets\img\insight\valuation.png') }}" alt=""></figure>
-                        <div class="newServiceBox"><a href="#">Valuation</a></div>
-                    </div>
-                    <div class="grid-item">
-                        <figure><img src="{{ asset('assets\img\insight\property-registration.png') }}" alt=""></figure>
-                        <div class="newServiceBox"><a href="#">Property Registeration</a></div>
-                    </div>
-                  </div> 
-                </div>
-            </section> --}}
-            
             <section class="otherService" style="">
                 <div class="insightToolsText">
                     <h2>Partner Services</h2>
@@ -443,6 +412,80 @@
                 </div>
               </div>
             </section>
+
+   
+    
+       <section class="estateDev">
+
+            <div class="estateBox">
+                <div class="estatelid">
+                    <h2>For Real Estate Developers</h2>
+                    <div class="estateBoxinner">
+                        <div class="estatetitle">
+                            <div class="titleHead"> 
+                                <img class="img-responsive lazy"  alt="prime-connect" src="{{ asset('assets\img\insight\propvr.svg') }}">
+                            <div class="PropVR estateclr">
+                                <h3>PropVR</h3>
+                                <span></span>
+                            </div>
+                        </div>
+
+                        <ul>
+                            <li><i class='bx bxs-checkbox-checked'></i>Get all 3D visualisation under one roof</li>
+                            <li><i class='bx bxs-checkbox-checked'></i>Virtual Sales Tool for remote showcase</li>
+                            <li><i class='bx bxs-checkbox-checked'></i>Tech-enabled Experience Center Solutions</li>
+                        </ul>
+                        <a class="btn" target="_blank" href="#">Know more <i class='bx bx-right-arrow-alt' ></i></a>
+
+                    </div>
+                    <div class="estateimg">
+                        <img src="{{ asset('assets\img\insight\propvr-side.svg') }}" alt="image">
+                    </div>
+                </div>
+            </div>
+            </div>
+
+            <div class=" estateBox" id="agent">
+                <div class="agentlid estatelid">
+                    <h2>For Agents</h2>
+                    <div class="agentinner estateBoxinner">
+                        <div class="agentTitle estatetitle">
+                            <div class="titleHead"> 
+                            <img class="img-responsive lazy"  alt="prime-connect" src="{{ asset('assets\img\insight\square-connect.svg') }}">
+                            <div class="PropVR " id="agentClr">
+                                <h3>Square Connect</h3>
+                                <span></span>
+                            </div>
+
+                        </div>
+                        <ul>
+                            <li><i class='bx bxs-checkbox-checked'></i>Free Listing &amp; Leads</li>
+                            <li><i class='bx bxs-checkbox-checked'></i>Higher Visibility using In-app marketing tools</li>
+                            <li><i class='bx bxs-checkbox-checked'></i>Exclusive Deals &amp; Higher commission Slabs</li>
+                        </ul>
+                        {{-- <ul>
+                            <li><i class='bx bxs-checkbox-checked'>Free Listing &amp; Leads</li>
+                            <li><i class='bx bxs-checkbox-checked'>Higher Visibility using In-app marketing tools</li>
+                            <li><i class='bx bxs-checkbox-checked'>Exclusive Deals &amp; Higher commission Slabs</li>
+                        </ul> --}}
+                        <a class="btn" target="_blank" href="#">Know more <i class='bx bx-right-arrow-alt' ></i></a>
+
+                    </div>
+                    <div class="estateimg" id="agentimg">
+                        <img src="{{ asset('assets\img\insight\square-connect-side.png') }}" alt="image">
+                    </div>
+                </div>
+            </div>
+
+
+
+       </section>
+    
+            
+
+
+            
+        
 
             <section class="locality">
                 <div class="container">

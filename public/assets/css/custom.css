@@ -28,6 +28,39 @@
     max-width:1240px;
     margin:   0 auto;
 }
+ .bg2{
+  background-color: #ddf5ff;
+}
+.bg2 img{
+  width: 70px;
+  height: 70px;
+}
+.bg3{
+  background-color: #fff6e7;
+}
+.tile{
+  padding: 16px 24px;
+  border-radius: 12px;
+  /* position: relative; */
+  overflow: hidden;
+  transition: all .3s linear;
+  
+}
+
+.btn{
+  box-shadow: 0 10px 30px 0 rgba(0,0,0,.1);
+    background-color: #fbfffd;
+    font-size: 13px;
+    line-height: 12px;
+    color: #111112;
+    font-weight: 600;
+    transition: .3s;
+}
+.sideImage{
+  /* position: absolute;
+    bottom: 0;
+    right: 0; */
+}
 /* 
 .progress-container {
     width: 100%;
@@ -165,8 +198,8 @@
     border: 1px solid #e8e8e8;
     /* box-shadow: 0 0 14px 0 rgba(0,0,0,.06); */
   }
-  .location-card a{
-
+  .prop{
+     display:flex
   }
   .starRating i{
     color: gold;
@@ -184,26 +217,7 @@
     border-bottom: 1px solid #e8e8e8;
     padding: 15px;
   }
-   .devAgentBx {
-    padding: 60px 0;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    position: relative;
-    /* gap: 60px; */
-    
-}
-.forDeveloperBx {
-  border: 1px solid #e8e8e8;
-  flex: 1;
-  background: #F8FBFF;
-  width: 540px;
-  height: 249px;
-}
-.forAgentBx{
-  border: 1px solid #e8e8e8;
-  flex: 1;
-}
+  
 .btnBox{
   background: #ffde81;
     color: #916c00;
@@ -212,7 +226,127 @@
 .otherService{
   margin-left: 100px;
 }
+.estateDev{
+  height: 440px;
+  display:flex;
+  border: 1px solid #f5f5f5;
+}
+.estateBox{
+  display: flex;
+  align-items: end;
+  flex: 1;
+  background: #f8fbff;
+  border: 1px solid #f5f5f5;
+  padding: 50px;
+  flex-wrap: wrap;
+  margin-bottom: 30px;
+}
+.estatelid h2{
+  /* width: 450px;
+  height: 315px; */
+  margin-bottom: 40px;
+    font-size: 26px;
+    color: #333;
+    line-height: 22px;
+    text-align: center;
+}
+.estateBoxinner{
+  background-color: #ddf5ff;
+  padding: 16px 24px;
+  border-radius: 12px;
+  display: flex;
+  
+}
+#agent{
+  background-color: white;
+}
+.agentinner{
+  background-color: #fff6e7;
+  padding: 16px 24px;
+  border-radius: 12px;
+  display: flex;
+}
+.estateimg{
+  position: relative; /* Ensure relative positioning for absolute positioning of the image */
+  overflow: hidden;
+}
+.estateimg img{
+  width: 100%;
+  height: 100%;
+   object-fit: contain;
+  /* position: absolute; */
+  /* top: 0;
+  left: 0; */
+}
+#agentimg{
+  margin-left: 50px;
+}
+.estateBoxinner ul{
+  margin: 16px 0 15px;
+  list-style: none;
 
+}
+.estateBoxinner ul li{
+  padding-left: 26px;
+  margin-bottom: 4px;
+  font-size: 13px;
+  max-width: 320px;
+  line-height: 21px;
+  letter-spacing: .1px;
+  color: #484848;
+  position: relative;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.estateBoxinner .btn{
+  padding: 10px 21px;
+  display: inline-block;
+  text-align: center;
+  cursor: pointer;
+  border: 1px solid transparent;
+  margin-left: 25px;
+  
+}
+.PropVR{
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
+ align-items: center;
+ margin-left: 30px;
+ /* padding-left: 30px; */
+}
+
+.PropVR h3{
+  color: #181b30;
+  font-size: 14px;
+  font-weight: 700;
+  position: relative;
+  text-align: center;
+  
+}
+.PropVR span{
+  height: 3px;
+  background-color: #181b30;
+  width: 50px;
+}
+#agentClr span{
+  height: 3px;
+  background-color: #f2b196;
+  width: 50px;
+}
+.agent{
+  flex: 1;
+}
+.titleHead{
+  display: flex;
+  margin-left: 25px;
+  
+}
+.titleHead img{
+  max-width: 70px;
+    max-height: 70px;
+}
 
 
 
@@ -234,10 +368,10 @@
     grid-template-rows: repeat(3, 190px);
     grid-template-columns: repeat(2, 190px);
     /* gap: 10px; Adjust the gap as needed */
-    margin-top: 20px;
+    /* margin: 0 auto; */
     margin-bottom: 100px;
     overflow: scroll;
-    margin-left: 0px;
+    margin-left: 60px;
   }
   .insightToolsText h2{
     font-size: 20px;
@@ -252,5 +386,14 @@
   }
   .otherService{
     margin-left: 20px;
+  }
+  .estateDev{
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 300px;
+  }
+  .container{
+    margin-top: 200px;
   }
 } 
